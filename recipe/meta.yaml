@@ -1,4 +1,4 @@
-{% set version = '2.2.0' %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggRandomForests_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggRandomForests/ggRandomForests_{{ version }}.tar.gz
-  sha256: 3a5ffeaa47dc6db22fb9ad3abe7ddccd77aa1eb225937991980dc68f915ab5b3
+  sha256: 8725e52ba6bae632ca414d5c22ea27972421590d5a8c96832cd28a5781ce8117
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -47,9 +47,7 @@ test:
 about:
   home: https://github.com/ehrlinger/ggRandomForests
   license: GPL-3.0-or-later
-  summary: Graphic elements for exploring Random Forests using the 'randomForest' or 'randomForestSRC'
-    package for survival, regression and classification forests and 'ggplot2' package
-    plotting.
+  summary: Graphic elements for exploring Random Forests using the 'randomForest' or 'randomForestSRC' package for survival, regression and classification forests and 'ggplot2' package plotting.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
