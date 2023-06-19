@@ -1,11 +1,11 @@
-About r-ggrandomforests
-=======================
+About r-ggrandomforests-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggrandomforests-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ehrlinger/ggRandomForests
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggrandomforests-feedstock/blob/main/LICENSE.txt)
 
 Summary: Graphic elements for exploring Random Forests using the 'randomForest' or 'randomForestSRC' package for survival, regression and classification forests and 'ggplot2' package plotting.
 
