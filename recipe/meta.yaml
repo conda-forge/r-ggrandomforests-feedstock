@@ -1,6 +1,5 @@
 {% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggrandomforests
@@ -13,8 +12,7 @@ source:
   sha256: 8725e52ba6bae632ca414d5c22ea27972421590d5a8c96832cd28a5781ce8117
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
